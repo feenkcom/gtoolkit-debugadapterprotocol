@@ -1,1 +1,1 @@
-Package { #name : 'BaselineOfGt4DebugAdapterProtocol' }
+Package { #name : #BaselineOfGt4DebugAdapterProtocol }

@@ -1,16 +1,16 @@
 Class {
-	#name : 'BaselineOfGt4DebugAdapterProtocol',
-	#superclass : 'BaselineOf',
-	#category : 'BaselineOfGt4DebugAdapterProtocol'
+	#name : #BaselineOfGt4DebugAdapterProtocol,
+	#superclass : #BaselineOf,
+	#category : #BaselineOfGt4DebugAdapterProtocol
 }
 
-{ #category : 'baseline' }
+{ #category : #baseline }
 BaselineOfGt4DebugAdapterProtocol >> baseline: spec [
 	<baseline>
 	spec for: #'common' do: [
 		spec
 			baseline: 'DebugAdapterProtocol' with: [
-				spec repository: 'github://feenkcom/pharo-debugadapterprotocol:v0.5.156/src' ].
+				spec repository: 'github://feenkcom/pharo-debugadapterprotocol:v0.5.157/src' ].
 
 		spec package: 'Gt4DebugAdapterProtocol' with: [
 			spec requires: #('DebugAdapterProtocol') ].
