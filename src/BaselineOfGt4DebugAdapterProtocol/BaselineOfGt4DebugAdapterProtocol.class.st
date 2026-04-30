@@ -10,7 +10,7 @@ BaselineOfGt4DebugAdapterProtocol >> baseline: spec [
 	spec for: #'common' do: [
 		spec
 			baseline: 'DebugAdapterProtocol' with: [
-				spec repository: 'github://feenkcom/pharo-debugadapterprotocol:v0.6.7/src' ].
+				spec repository: 'github://feenkcom/pharo-debugadapterprotocol:v0.6.8/src' ].
 
 		spec package: 'Gt4DebugAdapterProtocol' with: [
 			spec requires: #(#DebugAdapterProtocol) ].
